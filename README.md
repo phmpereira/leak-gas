@@ -1,1 +1,3 @@
-# leak-gas
+# Leak Gas
+
+## Integrantes:
