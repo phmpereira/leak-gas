@@ -22,6 +22,11 @@ Foi fundada com o objetivo de supervisionar o vazamento de gases em cozinhas ind
 - [x] Diagrama de Visão de Negócios
 - [ ] Site Institucional       
 - [x] Levantamento de Requisitos
+- [ ] Instalação de VM com Lubunt
+- [ ] Programa Arduino coletando os dados
+- [ ] Tabelas Banco de Dados (MySQL)
+- [ ] Calculadora Financeira
+- [ ] PowerPoint Sprint1
 
 ## Site Institucional
 #### Home
