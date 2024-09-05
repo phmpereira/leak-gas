@@ -1,6 +1,6 @@
-# Leak Gas
+# Leak Gas - Monitoramento Inteligente de Gás
 
-![](./leak_gas_logo.png)
+![](imagens/leak_gas_logo.png)
 
 ## Integrantes:
 ### - Luíza Vicente Pompermayer - 01242049 
@@ -10,3 +10,19 @@
 ### - Rafael Pavani de Souza Silva - 01242003  
 ### - Rayra Galvão – 01242054 
 ### - Viviane dos Santos – 01242050 
+
+## O que é a Leak Gas?
+
+## Qual nosso objetivo?
+Foi fundada com o objetivo de supervisionar o vazamento de gases em cozinhas industriais
+
+## To-Do List
+- [x] Logo do Projeto
+- [x] Documentação Inicial
+- [x] Diagrama de Visão de Negócios
+- [ ] Site Institucional       
+- [x] Levantamento de Requisitos
+
+## Site Institucional
+#### Home
+![](imagens/home.png)
