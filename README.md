@@ -1,6 +1,6 @@
 # Leak Gas
 
-!["leak_gas_logo.png"]
+![](./leak_gas_logo.png)
 
 ## Integrantes:
 ### - Luíza Vicente Pompermayer - 01242049 
