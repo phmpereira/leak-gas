@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LeakCalc</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
       *{
@@ -62,46 +62,23 @@
     var gasto_mes = gasto_dia * 30
     var gasto_ano = gasto_mes * 12
 
-    // div_resultado.innerHTML = `<h3>Sem vazamento:</h3>
-    //                           Gasto por dia: R$${gasto_dia * qtd_botijoes}
-    //                           <br>Gasto por mês: R$${gasto_mes * qtd_botijoes}
-    //                           <br>Gasto por ano: R$${gasto_ano * qtd_botijoes}`
-
     // Considerando que o gás esteja vazando e que o vazamento cause um aumento de 25%
-    consumo_queimador_25 = consumo_queimador + (consumo_queimador * 0.25)
+    var consumo_queimador_25 = consumo_queimador + (consumo_queimador * 0.25)
     var gasto_dia_25 = (((tempo_uso/60) * consumo_queimador_25) / capacidade_botijao) * preco_botijao
     var gasto_mes_25 = gasto_dia_25 * 30
     var gasto_ano_25 = gasto_mes_25 * 12
 
-    // Exibindo o resultado de 25% de vazamento
-    // div_resultado.innerHTML += `<hr><h3>25% de vazamento</h3>
-    //                           <br>Gasto por dia: R$${gasto_dia_25 * qtd_botijoes}
-    //                           <br>Gasto por mês: R$${gasto_mes_25 * qtd_botijoes}
-    //                           <br>Gasto por ano: R$${gasto_ano_25 * qtd_botijoes}`
-
     // Considerando que o gás esteja vazando e que o vazamento cause um aumento de 50%
-    consumo_queimador_50 = consumo_queimador + (consumo_queimador * 0.50)
+    var consumo_queimador_50 = consumo_queimador + (consumo_queimador * 0.50)
     var gasto_dia_50 = (((tempo_uso/60) * consumo_queimador_50) / capacidade_botijao) * preco_botijao
     var gasto_mes_50 = gasto_dia_50 * 30
     var gasto_ano_50 = gasto_mes_50 * 12
-
-    // Exibindo o resultado de 50% de vazamento
-    // div_resultado.innerHTML += `<hr><h3>50% de vazamento</h3>
-    //                           <br>Gasto por dia: R$${gasto_dia_50 * qtd_botijoes}
-    //                           <br>Gasto por mês: R$${gasto_mes_50 * qtd_botijoes}
-    //                           <br>Gasto por ano: R$${gasto_ano_50 * qtd_botijoes}`
                         
     // Considerando que o gás esteja vazando e que o vazamento cause um aumento de 100%
-    consumo_queimador_100 = consumo_queimador * 2
+    var consumo_queimador_100 = consumo_queimador * 2
     var gasto_dia_100 = (((tempo_uso/60) * consumo_queimador_100) / capacidade_botijao) * preco_botijao
     var gasto_mes_100 = gasto_dia_100 * 30
     var gasto_ano_100 = gasto_mes_100 * 12
-
-    // Exibindo o resultado de 100% de vazamento
-    // div_resultado.innerHTML += `<hr><h3>100% de vazamento</h3>
-    //                           <br>Gasto por dia: R$${gasto_dia_100 * qtd_botijoes}
-    //                           <br>Gasto por mês: R$${gasto_mes_100 * qtd_botijoes}
-    //                           <br>Gasto por ano: R$${gasto_ano_100 * qtd_botijoes}`
 
     div_resultado.style.display =  'block'
     // Exibindo o resultado dos gastos adicionais esperados
@@ -118,7 +95,10 @@
     div_resultado.innerHTML += `<hr>
                                <h3> Gastos com multas e prejuízo de equipamentos em caso de acidente: </h3>
                                <br> Caso ocorra um acidente, a estimativa de gastos relacionados à
-                               prejuízo e multas do seu estabelecimento gira em torno de: R$${patrimonial}`
+                               prejuízo e multas do seu estabelecimento gira em torno de: R$${patrimonial}.`
+
+    div_resultado.innerHTML += `<hr><br>
+                                Com a LeakGas, caso haja vazamento avisariamos você em menos de 5 minutos, podendo evitar todos esses gastos adicionais.`
                             
   }
 </script>

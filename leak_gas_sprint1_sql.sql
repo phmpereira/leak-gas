@@ -7,9 +7,9 @@ empresa VARCHAR(100),
 login varchar(50),
 senha varchar(50),
 tipoUsuario varchar(50),
-CONSTRAINT chkTipo
-		CHECK(tipoUsuario IN('Cliente', 'Colaborador')),
 dtCadastro date
+CONSTRAINT chkTipo
+		CHECK(tipoUsuario IN('Cliente', 'Colaborador'))
 ); 
 
 INSERT INTO usuario VALUES
@@ -20,10 +20,6 @@ INSERT INTO usuario VALUES
 (default, 'LeakGas','endreu@leakgas.sp', 'leakgas200', 'Colaborador', '2024-01-01'),
 (default, 'LeakGas', 'fabio@leakgas.sp', 'leakgas300', 'Colaborador', '2024-01-01'),
 (default, 'LeakGas', 'matias@leakgas.sp', 'leakgas400', 'colaborador', '2024-02-03');
-
--- adicionar check nessa tabela acima
--- atualizar a inserção dos dados das tabelas
--- adicionar update e delete
 
 SELECT * FROM usuario;
 
@@ -57,6 +53,8 @@ SELECT cnpj, ultimaManutencao FROM empresa
     
 UPDATE empresa SET email = 'terraco@italia.sp.br'
 	WHERE idEmpresa = 3;
+    
+SELECT * FROM empresa;
 
 CREATE TABLE manutencao (
 idManutencao INT PRIMARY KEY AUTO_INCREMENT,
@@ -67,9 +65,9 @@ dtManutencao datetime
 );
 
 INSERT INTO manutencao VALUES
-(default, 'Danilo', null, 'Outback', '2024-08-02 10:13'),
-(default, 'Endreu', null, 'Madero','2024-07-27 13:10'),
-(default, 'Fabio', null, 'Terraço Itália', '2024-07-30 14:26');
+(default, 'Danilo', 'Sistema calibrado e ajustado de acordo com o manuel. Disponível e eficiente para o uso', 'Outback', '2024-08-02 10:13'),
+(default, 'Endreu', 'Sistema estava com baixa performance por conta do atraso da manutenção. Sistema reajustado e efeiciente para o uso', 'Madero','2024-07-27 13:10'),
+(default, 'Fabio', 'Sistema ajustado e calibrado, disponível para utilização de forma eficiente', 'Terraço Itália', '2024-07-30 14:26');
 
 SELECT * FROM manutencao;
 
@@ -84,6 +82,8 @@ UPDATE manutencao SET dtManutencao = '2024-08-30 14:15'
     
 UPDATE manutencao SET dtManutencao = '2024-08-30 14:15'
 	WHERE idManutencao = 3;
+    
+   SELECT * FROM manutencao; 
 
 CREATE TABLE dadoSensor (
 idSensor INT PRIMARY KEY AUTO_INCREMENT,
