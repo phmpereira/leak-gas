@@ -27,13 +27,13 @@ void loop() {
   }
 
   // Exibindo as mensagens com os valores
-  Serial.print("Gás Mínimo:");
-  Serial.print(5);
+  Serial.print("Gás_Mínimo:");
+  Serial.print(0);
   Serial.print(",");
-  Serial.print("Gás Máximo:");
+  Serial.print("Gás_Máximo:");
   Serial.print(15);
   Serial.print(",");
-  Serial.print("Gás Atual:");
+  Serial.print("Gás_Atual:");
   Serial.println(porcentagem);
 
   // Dando um intervalo de 2s (2000ms) para que a função loop() seja executada novamente
