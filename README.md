@@ -11,6 +11,18 @@
 ### - Rayra Galvão – 01242054 
 ### - Viviane dos Santos – 01242050 
 
+## Desafios:
+- Precisão e confiabilidade dos sensores
+- Gerenciamento de Alarmes e Respostas
+- Educação e treinamento
+- Manutenção e suporte
+
+## Problemas:
+-Segurança dos Funcionários
+-Risco de Incêndios e Explosões.
+-Cumprimento de Normas de Segurança
+-Custos e prejuízos Financeiros
+
 ## O que é a Leak Gas?
 A LeakGas é uma empresa de monitoramento de vazamento de gás em cozinhas industriais.
 
