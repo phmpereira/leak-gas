@@ -17,7 +17,10 @@ A LeakGas é uma empresa de monitoramento de vazamento de gás em cozinhas indus
 ## Qual nosso objetivo?
 Foi fundada com o objetivo de monitorar o vazamento de gases em cozinhas industriais, gerar dados e dashboards intuitivos permitindo que o cliente tome decisões baseadas no nosso sistema.
 
-## Justificativa
+## Solução
+A Leakgás oferecerá uma solução inteligente de monitoração do ambiente, caso ocorra um vazamento de gás, nós iremos imitir um alerta visual por meio site institucional.
+Embora nossa prioridade seja o monitoramento eficiente, essa detecção rápida ajudará a proteger seus funcionários oque irá evitar desperdicios de gás e também irá preservar seu patrimõnio.
+Com a Leakgás seu estabelecimento estará preparado para agir e operar com efiência, além de reforçar uma imagem de responsabilidade e inovaçao do seu negócio.
 
 
 ## To-Do List
