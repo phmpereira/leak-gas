@@ -18,10 +18,10 @@
 - Manutenção e suporte
 
 ## Problemas:
--Segurança dos Funcionários
--Risco de Incêndios e Explosões.
--Cumprimento de Normas de Segurança
--Custos e prejuízos Financeiros
+- Segurança dos Funcionários
+- Risco de Incêndios e Explosões.
+- Cumprimento de Normas de Segurança
+- Custos e prejuízos Financeiros
 
 ## O que é a Leak Gas?
 A LeakGas é uma empresa de monitoramento de vazamento de gás em cozinhas industriais.
