@@ -35,6 +35,11 @@ Com a Leakgás seu estabelecimento estará preparado para agir e operar com efi�
 - [x] Calculadora Financeira
 - [x] PowerPoint Sprint1
 
+## Ferramentas Utilizadas
+![](imagens/trello.png) 
+![](imagens/workbench.png)
+![](imagens/arduino.png)
+
 ## Site Institucional
 #### Home
 ![](imagens/home.png)
